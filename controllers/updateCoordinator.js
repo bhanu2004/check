@@ -33,7 +33,7 @@ class updateCoordinator{
                 await newData.save();
                 res.status(200).json({
                     status: true,
-                    message: "coordinater successfully updated"
+                    message: "coordinater successfully updated !!"
                 });
             }
              
