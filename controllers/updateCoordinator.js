@@ -23,7 +23,7 @@ class updateCoordinator{
                 await coordinatorMatcher.update({coordinatorId:req.body.coordinatorId}, {where: {stateId: req.body.stateId}});
                 res.status(200).json({
                     status: true,
-                    message: "coordinater successfully updated"
+                    message: "coordinater successfully updated !!"
                 });
             }else{
                 const newData = coordinatorMatcher.build({
